@@ -1,0 +1,27 @@
+############################################################
+#  editor configurations should be ignore globally on      #
+#  your machine, not here in this file.                    #
+#  https://gist.github.com/subfuzion/db7f57fff2fb6998a16c  #
+############################################################
+
+
+### START BOILERPLATE ###
+# sftp configuration file
+sftp-config.json
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+## END BOILERPLATE ##
+
+
+# ignore build
+.build/*
+!.build/.gitkeep
